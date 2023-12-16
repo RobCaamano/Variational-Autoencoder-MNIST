@@ -4,6 +4,10 @@ train_variational_autoeconder.py: runs an optuna study to optimize hyperparamete
 
 inference.py: runs inference on the trained VAE to generate the final latent space as well as digits.
 
+'''
+$ pip install -r requirements.txt
+'''
+
 ## Training
 
 ### Optuna Optimization Result
